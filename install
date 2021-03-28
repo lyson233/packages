@@ -2,7 +2,7 @@
 
 declare -i version
 
-url="https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/"
+url="https://github.com.cnpmjs.org/OpenMediaVault-Plugin-Developers/packages/raw/master/"
 
 version=$(dpkg -l openmediavault | awk '$2 == "openmediavault" { print substr($3,1,1) }')
 
